@@ -1,0 +1,84 @@
+.container {
+    width: 100%;
+    max-width: 1200px ;
+    margin: 100px auto ;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.container h1 {
+    font-size: 4rem;
+    color: #333;
+}
+
+.container h1 span {
+    color: red
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    margin: 2rem 0;
+    padding: .5rem;
+    /* border-collapse: collapse; */
+}
+
+thead tr {
+    background-color: gray;
+    font-size: 1.2rem;
+}
+
+thead tr th {
+    font-size: 1.15rem;
+    color: #fff;
+}
+
+.tbody tr td {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.btn {
+    display: block;
+    margin: 70px auto;
+    margin-bottom: 2rem;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: grey;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.empty_list {
+    font-size: 2rem;
+    text-align: center ;
+    margin-top: 1rem;
+}
+
+.details {
+    color: blue ;
+    cursor: pointer ;
+}
+
+.details:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+.td_btn {
+    color: red ;
+    cursor: pointer ;
+}
+
+.td_btn:hover {
+    background-color: red;
+    color: #fff ;
+}

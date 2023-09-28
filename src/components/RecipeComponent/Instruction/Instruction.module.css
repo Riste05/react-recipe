@@ -1,0 +1,13 @@
+.preparation_instruction label {
+    font-size: 2.5rem ;
+    font-weight: 600 ;
+    color: #333 ;
+}
+
+.preparation_instruction textarea {
+    resize: none ;
+    width: 27rem ;
+    height: 10rem ;
+    padding: 1rem ;
+    font-size: 1.2rem ;
+}

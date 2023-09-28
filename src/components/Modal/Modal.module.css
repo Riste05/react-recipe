@@ -1,0 +1,112 @@
+.backdrop {
+    position: fixed;
+    top: 0 ;
+    left: 0 ;
+    width: 100% ;
+    height: 100vh ;
+    z-index: 10;
+    background-color: rgba(0,0,0,.9);
+}
+
+.article {
+    position: fixed;
+    width: 600px ;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50% , -50%);
+    z-index: 100;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1rem rgba(0,0,0,.7);
+    background-color: aliceblue;
+}
+
+.article h2 {
+    background-color: cornflowerblue;
+    font-size: 4rem ;
+    padding: 5px 3rem ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #fff ;
+    text-align: center ;
+    text-transform: capitalize;
+}
+
+.container {
+    margin: 1rem 0;
+    text-align: center ;
+}
+
+.container h4 {
+    font-size: 2rem ;
+}
+
+.container p {
+    font-size: 1.8rem;
+    color: cornflowerblue ;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.components {
+    padding: 2rem ;
+}
+
+
+.left {
+    display: flex ;
+    align-items: start;
+    margin-bottom: 2rem ;
+}
+
+.left > div {
+    flex: 1 ;
+}
+
+.ingridiants ul li {
+    text-align: center ;
+    font-size: 2rem ;
+}
+
+.time {
+    text-align: center;
+}
+
+.time h3 {
+    font-size: 1.5rem ;
+}
+
+.time span {
+    display: block ;
+    margin-top: 10px ;
+    font-size: 1.5rem ;
+}
+
+.Instriction {
+    text-align: center ;
+}
+
+.Instriction h3 {
+    font-size: 1.5rem ;
+    margin-bottom: .5rem ;
+}
+
+.Instriction p {
+    font-size: 1.1rem ;
+}
+
+.btn {
+    display: block;
+    width: 100% ;
+    background-color: cornflowerblue;
+    color: #fff ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none ;
+    cursor: pointer ;
+    font-size: 1.7rem ;
+    padding: 7px 0 ;
+}
+
+.btn:hover {
+    font-weight: 600;
+}

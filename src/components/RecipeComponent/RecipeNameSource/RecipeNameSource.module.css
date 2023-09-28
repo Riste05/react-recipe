@@ -1,0 +1,26 @@
+.name_source {
+    margin-bottom: 2rem ;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center ; */
+}
+
+.recipe_name {
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe_name label {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600 ;
+    color: #333 ;
+}
+
+.recipe_name input {
+    width: 20rem;
+    border-radius: 15px;
+    padding: 2px 1.5rem;
+    font-size: 1.4rem;
+    color: #333;
+}

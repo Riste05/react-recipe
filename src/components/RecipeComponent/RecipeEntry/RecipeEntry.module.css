@@ -1,0 +1,19 @@
+legend {
+    padding: 1rem ;
+    font-size: 2rem ;
+    font-weight: 600;
+}
+
+.components_flex {
+    display: flex ;
+}
+
+.components_flex > * {
+    flex: 1 ;
+}
+
+.components_column {
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-around;
+}
